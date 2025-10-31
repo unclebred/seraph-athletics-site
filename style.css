@@ -1,0 +1,66 @@
+/* ====== SERAPH ATHLETICS SITE THEME ====== */
+
+/* General layout */
+body {
+  background-color: #000; /* black background */
+  color: #d1d1d1; /* soft metallic gray text */
+  font-family: 'Poppins', 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Logo section */
+.logo {
+  margin-top: 80px;
+}
+
+.logo img {
+  width: 200px;
+  max-width: 90%;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  color: #e0e0e0;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+/* Tagline or description */
+p {
+  color: #b5b5b5;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+/* Call-to-action buttons */
+button {
+  background-color: transparent;
+  border: 2px solid #e0e0e0;
+  color: #e0e0e0;
+  font-size: 1rem;
+  padding: 12px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  margin-top: 100px;
+  padding: 30px 0;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #222;
+} 
